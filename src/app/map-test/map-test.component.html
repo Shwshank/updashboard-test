@@ -1,0 +1,12 @@
+<!-- options is used for ECharts to setOption() -->
+<!-- From 2.0, ngx-echarts can have default height: 400px -->
+<!-- <div echarts [options]="options"></div> -->
+
+<!-- From 2.0, [dataset] is deprecated. Now we use [merge] to update data series -->
+<!-- <div echarts [options]="options" [merge]="mergeOptions"></div> -->
+
+<div echarts [options]="options" [loading]="!mapLoaded" class="demo-chart"></div>
+
+<!-- <markdown [data]="demo_html | language: 'html'"></markdown>
+
+<markdown [data]="demo_ts | language: 'typescript'"></markdown> -->
